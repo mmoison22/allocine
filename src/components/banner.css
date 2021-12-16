@@ -1,0 +1,28 @@
+#banner {
+    background-color: black;
+    color: #F6C600;
+    font-size: 1.5rem;
+    display:flex;
+    padding:1rem 1rem;
+}
+#pagination {
+    display:flex; 
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+#categories {
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+
+}
+#categories div {
+    margin: auto 2rem;
+    
+}
+#pagination div {
+    margin: auto 0.5rem;
+    
+}

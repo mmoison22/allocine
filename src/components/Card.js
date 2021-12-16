@@ -1,9 +1,13 @@
 import './card.css';
 
-const Card = () => {
+const Card = (props) => {
     return (
         <div>
-            film
+            <h2>
+                {props.movie.original_title}
+
+            </h2>
+            {props.movie.release_date}
         </div>
     );
 };
